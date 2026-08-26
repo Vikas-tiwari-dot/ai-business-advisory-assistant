@@ -1,0 +1,39 @@
+# Environment / secrets
+.env
+.env.local
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.venv/
+venv/
+
+# SQLite databases (local dev only -- never commit real or synthetic runtime data)
+*.db
+*.sqlite3
+
+# Node / frontend (frontend/.gitignore also covers this, kept here as a backstop)
+node_modules/
+dist/
+*.local
+
+# OS/editor cruft
+.DS_Store
+.idea/
+.vscode/
+
+# Large generated synthetic data files -- keep the repo lean; regenerate via
+# scripts/generate_data.py rather than committing large data dumps. The
+# seed42 reference dataset and manifest are kept as tracked exceptions below
+# since docs/README reference them directly.
+data/synthetic/*.jsonl
+!data/synthetic/payments_seed42.jsonl
+data/evaluation/evaluation_seed*.json
+!data/evaluation/evaluation_seed42.json

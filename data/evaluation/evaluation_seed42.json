@@ -1,0 +1,21 @@
+{
+  "action_selection_accuracy": 0.9448,
+  "ai_diagnosis_accuracy": 0.9417,
+  "average_recovery_value": 418806,
+  "dataset_split": "holdout",
+  "false_negative_rate": 0.1164,
+  "false_positive_cost": 136500,
+  "false_positive_count": 91,
+  "false_positive_rate": 0.5056,
+  "human_escalation_rate": 0.3127,
+  "net_recovered_value": 51795506,
+  "policy_blocked_actions": 31,
+  "recoverable_cases": 146,
+  "recovery_rate": 0.2464,
+  "revenue_at_risk": 210788062,
+  "revenue_recovered": 51932006,
+  "scored_record_count": 326,
+  "successful_recoveries": 124,
+  "total_records": 339,
+  "total_revenue": 221740324
+}

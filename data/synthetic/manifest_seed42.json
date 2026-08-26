@@ -1,0 +1,23 @@
+{
+  "category_distribution": {
+    "already_successful": 43,
+    "bank_decline": 141,
+    "checkout_abandonment": 163,
+    "expired_instrument": 109,
+    "insufficient_funds": 152,
+    "overdue_invoice": 90,
+    "repeated_failure": 103,
+    "temporary_failure": 199
+  },
+  "customer_pool_size": 200,
+  "file": "payments_seed42.jsonl",
+  "generated_at_anchor": "2026-08-22T00:00:00+00:00",
+  "records": 1000,
+  "seed": 42,
+  "sha256": "64c363bb36d6f6a4db5034b86cf82fcc08353edbc092c626e03e3460d0509319",
+  "split_distribution": {
+    "holdout": 339,
+    "train": 661
+  },
+  "train_ratio": 0.7
+}
